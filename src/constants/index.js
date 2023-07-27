@@ -40,6 +40,14 @@ export const navLinks = [
     },
 ];
 
+export const heroInformations = {
+    title: {
+        prefix: 'Olá, Eu sou o',
+        suffix: 'Antonio'
+    },
+    subtitle: 'Desenvolvedor de Software, especializado em Front-end. Cursando MBA em Engenharia de Software pela FIAP.'
+}
+
 const services = [
     {
         title: "Web Developer",
