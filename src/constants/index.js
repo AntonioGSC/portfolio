@@ -40,7 +40,7 @@ export const navLinks = [
     },
 ];
 
-export const heroInformations = {
+const heroInformations = {
     title: {
         prefix: 'Olá, Eu sou o',
         suffix: 'Antonio'
@@ -270,4 +270,4 @@ const projects = [
     },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { heroInformations, services, technologies, experiences, testimonials, projects };
