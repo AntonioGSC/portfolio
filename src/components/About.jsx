@@ -41,7 +41,7 @@ const About = () => {
             </motion.div>
             {overviewInformation.map((info, index) => (
                 <motion.p
-                    key={index}
+                    key={`overview-information-${index}`}
                     variants={fadeIn('', '', 0.1, 1)}
                     className='text-secondary text-[17px] max-w-3xl leading-[30px]'
                 >
