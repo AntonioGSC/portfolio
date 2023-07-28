@@ -4,8 +4,7 @@ import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
 
-import { heroInformation } from '../constants';
-
+import { i18n } from '../translate/i18n';
 
 const Hero = () => {
     return (
@@ -16,9 +15,9 @@ const Hero = () => {
                     <div className='w-1 sm:h-80 h-40 violet-gradient' />
                 </div>
                 <div>
-                    <h1 className={`${styles.heroHeadText} text-white`}>{heroInformation.title.prefix} <span className='text-[#915eff]'>{heroInformation.title.suffix}</span></h1>
+                    <h1 className={`${styles.heroHeadText} text-white`}>{i18n.t('hero.title.prefix')} <span className='text-[#915eff]'>{i18n.t('hero.title.name')}</span></h1>
                     <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-                        {heroInformation.subtitle}
+                        {i18n.t('hero.subtitle')}
                     </p>
                 </div>
             </div>

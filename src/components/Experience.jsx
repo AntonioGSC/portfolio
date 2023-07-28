@@ -5,9 +5,10 @@ import { motion } from 'framer-motion';
 import 'react-vertical-timeline-component/style.min.css';
 
 import { styles } from '../styles';
-import { experiences } from '../constants';
 import { SectionWrapper } from '../hoc';
 import { textVariant } from '../utils/motion';
+
+import { i18n } from '../translate/i18n';
 
 const ExperienceCard = ({ experience }) => {
     return (
@@ -53,13 +54,13 @@ const Experience = () => {
             <motion.div
                 variants={textVariant()}
             >
-                <p className={styles.sectionSubText}>Com o que já trabalhei</p>
-                <h2 className={styles.sectionHeadText}>Experiência.</h2>
+                <p className={styles.sectionSubText}>{i18n.t('experience.subtext')}</p>
+                <h2 className={styles.sectionHeadText}>{i18n.t('experience.title')}</h2>
             </motion.div>
 
             <div className='mt-20 flex flex-column'>
                 <VerticalTimeline>
-                    {experiences.map((experience, index) => (
+                    {i18n.t('experience.experiences', { returnObjects: true }).map((experience, index) => (
                         <ExperienceCard key={index} experience={experience} />
                     ))}
                 </VerticalTimeline>

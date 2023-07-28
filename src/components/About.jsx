@@ -4,10 +4,11 @@ import { Tilt } from 'react-tilt';
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
-import { overviewInformation, services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
 import { SectionWrapper } from '../hoc';
+
+import { i18n } from '../translate/i18n';
 
 const ServiceCard = ({ index, title, icon }) => {
     return (
@@ -36,10 +37,10 @@ const About = () => {
     return (
         <>
             <motion.div variants={textVariant()} className='mb-4'>
-                <p className={styles.sectionSubText}>Introdução</p>
-                <h2 className={styles.sectionHeadText}>Sobre.</h2>
+                <p className={styles.sectionSubText}>{i18n.t('about.subtext')}</p>
+                <h2 className={styles.sectionHeadText}>{i18n.t('about.title')}</h2>
             </motion.div>
-            {overviewInformation.map((info, index) => (
+            {i18n.t('about.overviewInformation', { returnObjects: true }).map((info, index) => (
                 <motion.p
                     key={`overview-information-${index}`}
                     variants={fadeIn('', '', 0.1, 1)}
@@ -49,7 +50,7 @@ const About = () => {
                 </motion.p>
             ))}
             <div className='mt-20 flex flex-wrap gap-10'>
-                {services.map((service, index) => (
+                {i18n.t('about.services', { returnObjects: true }).map((service, index) => (
                     <ServiceCard key={service.title} index={index} {...service} />
                 ))}
             </div>
