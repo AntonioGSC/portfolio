@@ -40,13 +40,21 @@ export const navLinks = [
     },
 ];
 
-const heroInformations = {
+const heroInformation = {
     title: {
         prefix: 'Olá, Eu sou o',
         suffix: 'Antonio'
     },
     subtitle: 'Desenvolvedor de Software, especializado em Front-end. Cursando MBA em Engenharia de Software pela FIAP.'
 }
+
+const overviewInformation = [
+    `Experiência em engenharia de software com especialidades em desenvolvimento frontend e testes, infraestrutura, 
+    arquitetura de software, boas práticas, design pattern, SEO, experiência de usuário, usabilidade e acessibilidade.`,
+    `Sou um profissional adaptável e empático, atuo de maneira colaborativa identificando e elaborando soluções com foco nas necessidades da
+    empresa. Minha principal motivação é sempre contribuir na criação e construção de soluções inovadoras para modernizar processos através da
+    tecnologia.`
+];
 
 const services = [
     {
@@ -270,4 +278,4 @@ const projects = [
     },
 ];
 
-export { heroInformations, services, technologies, experiences, testimonials, projects };
+export { heroInformation, overviewInformation, services, technologies, experiences, testimonials, projects };
