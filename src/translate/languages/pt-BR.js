@@ -151,22 +151,22 @@ const messages = {
                         name: "GoLang",
                         icon: golang,
                     },
-                    {
-                        name: "Java",
-                        icon: java,
-                    },
+                    // {
+                    //     name: "Java",
+                    //     icon: java,
+                    // },
                     {
                         name: "Angular",
                         icon: angular,
                     },
-                    // {
-                    //     name: "NextJs",
-                    //     icon: nextjs,
-                    // },
-                    // {
-                    //     name: "ReactJS",
-                    //     icon: reactjs,
-                    // },
+                    {
+                        name: "NextJs",
+                        icon: nextjs,
+                    },
+                    {
+                        name: "ReactJS",
+                        icon: reactjs,
+                    },
                     // {
                     //     name: "Redux Toolkit",
                     //     icon: redux,
@@ -175,10 +175,10 @@ const messages = {
                     //     name: "Three JS",
                     //     icon: threejs,
                     // },
-                    // {
-                    //     name: "Tailwind CSS",
-                    //     icon: tailwind,
-                    // },
+                    {
+                        name: "Tailwind CSS",
+                        icon: tailwind,
+                    },
                     // {
                     //     name: "git",
                     //     icon: git,
