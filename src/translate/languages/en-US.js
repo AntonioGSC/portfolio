@@ -139,18 +139,18 @@ const messages = {
                         name: "CSS 3",
                         icon: css,
                     },
-                    {
-                        name: "JavaScript",
-                        icon: javascript,
-                    },
+                    // {
+                    //     name: "JavaScript",
+                    //     icon: javascript,
+                    // },
                     {
                         name: "TypeScript",
                         icon: typescript,
                     },
-                    {
-                        name: "GoLang",
-                        icon: golang,
-                    },
+                    // {
+                    //     name: "GoLang",
+                    //     icon: golang,
+                    // },
                     // {
                     //     name: "Java",
                     //     icon: java,
@@ -175,10 +175,10 @@ const messages = {
                     //     name: "Three JS",
                     //     icon: threejs,
                     // },
-                    {
-                        name: "Tailwind CSS",
-                        icon: tailwind,
-                    },
+                    // {
+                    //     name: "Tailwind CSS",
+                    //     icon: tailwind,
+                    // },
                     // {
                     //     name: "git",
                     //     icon: git,
