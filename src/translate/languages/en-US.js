@@ -159,38 +159,38 @@ const messages = {
                         name: "Angular",
                         icon: angular,
                     },
-                    {
-                        name: "NextJs",
-                        icon: nextjs,
-                    },
-                    {
-                        name: "ReactJS",
-                        icon: reactjs,
-                    },
-                    {
-                        name: "Redux Toolkit",
-                        icon: redux,
-                    },
-                    {
-                        name: "Three JS",
-                        icon: threejs,
-                    },
-                    {
-                        name: "Tailwind CSS",
-                        icon: tailwind,
-                    },
-                    {
-                        name: "git",
-                        icon: git,
-                    },
-                    {
-                        name: "docker",
-                        icon: docker,
-                    },
-                    {
-                        name: "figma",
-                        icon: figma,
-                    },
+                    // {
+                    //     name: "NextJs",
+                    //     icon: nextjs,
+                    // },
+                    // {
+                    //     name: "ReactJS",
+                    //     icon: reactjs,
+                    // },
+                    // {
+                    //     name: "Redux Toolkit",
+                    //     icon: redux,
+                    // },
+                    // {
+                    //     name: "Three JS",
+                    //     icon: threejs,
+                    // },
+                    // {
+                    //     name: "Tailwind CSS",
+                    //     icon: tailwind,
+                    // },
+                    // {
+                    //     name: "git",
+                    //     icon: git,
+                    // },
+                    // {
+                    //     name: "docker",
+                    //     icon: docker,
+                    // },
+                    // {
+                    //     name: "figma",
+                    //     icon: figma,
+                    // },
                 ]
             }
         }
