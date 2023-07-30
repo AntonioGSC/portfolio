@@ -98,7 +98,7 @@ const Navbar = () => {
                                     <a href={`#${link.id}`}>{link.title}</a>
                                 </li>
                             ))}
-                            <li>
+                            <li className="w-full">
                                 <div className='mt-1 flex w-full justify-around gap-2' onChange={handleLanguageChange}>
                                     <label htmlFor='pt-BR'>
                                         <input
