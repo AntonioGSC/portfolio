@@ -41,10 +41,10 @@ const messages = {
                         id: "work",
                         title: "Experiência",
                     },
-                    // {
-                    //     id: "contact",
-                    //     title: "Contato",
-                    // },
+                    {
+                        id: "contact",
+                        title: "Contato",
+                    },
                 ]
             },
             hero: {
@@ -159,13 +159,13 @@ const messages = {
                             reactjs
                         ],
                     },
-                    {
-                        name: "GoLang e Java",
-                        icons: [
-                            golang,
-                            java
-                        ],
-                    },
+                    // {
+                    //     name: "GoLang e Java",
+                    //     icons: [
+                    //         golang,
+                    //         java
+                    //     ],
+                    // },
                     {
                         name: "Tailwind CSS e Three JS",
                         icons: [
@@ -173,14 +173,40 @@ const messages = {
                             threejs
                         ],
                     },
-                    {
-                        name: "Git e Docker",
-                        icons: [
-                            git,
-                            docker
-                        ],
-                    },
+                    // {
+                    //     name: "Git e Docker",
+                    //     icons: [
+                    //         git,
+                    //         docker
+                    //     ],
+                    // },
                 ]
+            },
+            contact: {
+                subtext: 'Entre em contato',
+                title: 'Contato.',
+                form: {
+                    name: {
+                        label: 'Nome',
+                        placeholder: 'Qual o seu nome?'
+                    },
+                    email: {
+                        label: 'Email',
+                        placeholder: 'Qual o seu email?'
+                    },
+                    message: {
+                        label: 'Mensagem',
+                        placeholder: 'O que gostaria de dizer?'
+                    },
+                    send: {
+                        message: 'Enviar',
+                        loading: 'Enviando...',
+                    },
+                    formSend: {
+                        success: 'Obrigado! Eu responderei assim que possível.',
+                        error: 'Desculpe! Alguma coisa deu errado.'
+                    }
+                }
             }
         }
     }
