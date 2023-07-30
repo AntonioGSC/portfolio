@@ -251,7 +251,7 @@ const messages = {
                         loading: 'Sending...',
                     },
                     formSend: {
-                        success: 'Thank you! i will get back as soon as possible.',
+                        success: 'Thank you! I will get back as soon as possible.',
                         error: 'Sorry! Something went wrong.'
                     }
                 }
