@@ -27,6 +27,9 @@ import threejs from "./tech/threejs.svg";
 import oracle from "./company/oracle.png";
 import smarters from "./company/smarters.png";
 
+import brazil from "./brazil.png";
+import usa from "./usa.png";
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -59,6 +62,8 @@ export {
     nextjs,
     oracle,
     smarters,
+    brazil,
+    usa,
     carrent,
     jobit,
     tripguide,
