@@ -14,6 +14,7 @@ const Navbar = () => {
     const [language] = useState(window.localStorage.getItem(I18N_STORAGE_KEY));
 
     const handleLanguageChange = (event) => {
+        console.log(event.target.value)
         window.localStorage.setItem(I18N_STORAGE_KEY, event.target.value);
         return window.location.reload();
     }
@@ -42,35 +43,37 @@ const Navbar = () => {
                             <a href={`#${link.id}`}>{link.title}</a>
                         </li>
                     ))}
-                    <li className='flex justify-between gap-4' onChange={handleLanguageChange} value={language}>
-                        <label htmlFor='pt-BR'>
-                            <input
-                                type='radio'
-                                name='language'
-                                id='pt-BR'
-                                value='pt-BR'
-                                checked={language === 'pt-BR'}
-                                className='peer hidden'
-                            />
-                            <img
-                                src={brazil}
-                                className='w-8 h-8 cursor-pointer peer-checked:grayscale'
-                                alt='Portuguese' />
-                        </label>
-                        <label htmlFor='en-US'>
-                            <input
-                                type='radio'
-                                name='language'
-                                id='en-US'
-                                value='en-US'
-                                checked={language === 'en-US'}
-                                className='peer hidden'
-                            />
-                            <img
-                                src={usa}
-                                className='w-8 h-8 cursor-pointer peer-checked:grayscale'
-                                alt='English' />
-                        </label>
+                    <li>
+                        <div className='flex justify-between gap-4' onChange={handleLanguageChange}>
+                            <label htmlFor='pt-BR'>
+                                <input
+                                    type='radio'
+                                    name='language'
+                                    id='pt-BR'
+                                    value='pt-BR'
+                                    checked={language === 'pt-BR'}
+                                    className='peer/desktop hidden'
+                                />
+                                <img
+                                    src={brazil}
+                                    className='w-8 h-8 cursor-pointer peer-checked/desktop:grayscale'
+                                    alt='Portuguese' />
+                            </label>
+                            <label htmlFor='en-US'>
+                                <input
+                                    type='radio'
+                                    name='language'
+                                    id='en-US'
+                                    value='en-US'
+                                    checked={language === 'en-US'}
+                                    className='peer/desktop hidden'
+                                />
+                                <img
+                                    src={usa}
+                                    className='w-8 h-8 cursor-pointer peer-checked/desktop:grayscale'
+                                    alt='English' />
+                            </label>
+                        </div>
                     </li>
                 </ul>
 
@@ -95,35 +98,37 @@ const Navbar = () => {
                                     <a href={`#${link.id}`}>{link.title}</a>
                                 </li>
                             ))}
-                            <li className='mt-1 flex w-full justify-around gap-2' onChange={handleLanguageChange} value={language}>
-                                <label htmlFor='pt-BR'>
-                                    <input
-                                        type='radio'
-                                        name='language'
-                                        id='pt-BR'
-                                        value='pt-BR'
-                                        checked={language === 'pt-BR'}
-                                        className='peer hidden'
-                                    />
-                                    <img
-                                        src={brazil}
-                                        className='w-8 h-8 cursor-pointer peer-checked:grayscale'
-                                        alt='Portuguese' />
-                                </label>
-                                <label htmlFor='en-US'>
-                                    <input
-                                        type='radio'
-                                        name='language'
-                                        id='en-US'
-                                        value='en-US'
-                                        checked={language === 'en-US'}
-                                        className='peer hidden'
-                                    />
-                                    <img
-                                        src={usa}
-                                        className='w-8 h-8 cursor-pointer peer-checked:grayscale'
-                                        alt='English' />
-                                </label>
+                            <li>
+                                <div className='mt-1 flex w-full justify-around gap-2' onChange={handleLanguageChange}>
+                                    <label htmlFor='pt-BR'>
+                                        <input
+                                            type='radio'
+                                            name='language-mobile'
+                                            id='pt-BR'
+                                            value='pt-BR'
+                                            checked={language === 'pt-BR'}
+                                            className='peer/mobile hidden'
+                                        />
+                                        <img
+                                            src={brazil}
+                                            className='w-8 h-8 cursor-pointer peer-checked/mobile:grayscale'
+                                            alt='Portuguese' />
+                                    </label>
+                                    <label htmlFor='en-US'>
+                                        <input
+                                            type='radio'
+                                            name='language-mobile'
+                                            id='en-US'
+                                            value='en-US'
+                                            checked={language === 'en-US'}
+                                            className='peer/mobile hidden'
+                                        />
+                                        <img
+                                            src={usa}
+                                            className='w-8 h-8 cursor-pointer peer-checked/mobile:grayscale'
+                                            alt='English' />
+                                    </label>
+                                </div>
                             </li>
                         </ul>
                     </div>
