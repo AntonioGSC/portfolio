@@ -129,24 +129,8 @@ const messages = {
                     },
                 ]
             },
-            tech: {
+            tech2: {
                 technologies: [
-                    {
-                        name: "HTML 5",
-                        icon: html,
-                    },
-                    {
-                        name: "CSS 3",
-                        icon: css,
-                    },
-                    // {
-                    //     name: "JavaScript",
-                    //     icon: javascript,
-                    // },
-                    {
-                        name: "TypeScript",
-                        icon: typescript,
-                    },
                     // {
                     //     name: "GoLang",
                     //     icon: golang,
@@ -191,6 +175,59 @@ const messages = {
                     //     name: "figma",
                     //     icon: figma,
                     // },
+                ]
+            },
+            tech: {
+                technologies: [
+                    {
+                        name: "HTML 5 and CSS 3",
+                        icons: [
+                            html,
+                            css
+                        ],
+                    },
+                    {
+                        name: "TypeScript and Javascript",
+                        icons: [
+                            typescript,
+                            javascript
+                        ],
+                    },
+                    {
+                        name: "Angular and Redux",
+                        icons: [
+                            angular,
+                            redux
+                        ],
+                    },
+                    {
+                        name: "NextJs and React",
+                        icons: [
+                            nextjs,
+                            reactjs
+                        ],
+                    },
+                    {
+                        name: "GoLang and Java",
+                        icons: [
+                            golang,
+                            java
+                        ],
+                    },
+                    {
+                        name: "Tailwind CSS and Three JS",
+                        icons: [
+                            tailwind,
+                            threejs
+                        ],
+                    },
+                    {
+                        name: "Git and Docker",
+                        icons: [
+                            git,
+                            docker
+                        ],
+                    },
                 ]
             }
         }

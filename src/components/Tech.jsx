@@ -9,11 +9,12 @@ const Tech = () => {
     return (
         <div className='flex flex-row flex-wrap justify-center gap-10'>
             {i18n.t('tech.technologies', { returnObjects: true }).map((technology) => (
-                <div className='w-28 h-28' key={technology.name}>
-                    <BallCanvas icon={technology.icon} />
+                <div div className='w-28 h-28' key={technology.name} >
+                    <BallCanvas icons={technology.icons} />
                 </div>
-            ))}
-        </div>
+            ))
+            }
+        </div >
     )
 }
 

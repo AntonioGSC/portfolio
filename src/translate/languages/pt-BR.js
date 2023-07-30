@@ -132,65 +132,54 @@ const messages = {
             tech: {
                 technologies: [
                     {
-                        name: "HTML 5",
-                        icon: html,
+                        name: "HTML 5 e CSS 3",
+                        icons: [
+                            html,
+                            css
+                        ],
                     },
                     {
-                        name: "CSS 3",
-                        icon: css,
-                    },
-                    // {
-                    //     name: "JavaScript",
-                    //     icon: javascript,
-                    // },
-                    {
-                        name: "TypeScript",
-                        icon: typescript,
-                    },
-                    // {
-                    //     name: "GoLang",
-                    //     icon: golang,
-                    // },
-                    // {
-                    //     name: "Java",
-                    //     icon: java,
-                    // },
-                    {
-                        name: "Angular",
-                        icon: angular,
+                        name: "TypeScript e Javascript",
+                        icons: [
+                            typescript,
+                            javascript
+                        ],
                     },
                     {
-                        name: "NextJs",
-                        icon: nextjs,
+                        name: "Angular e Redux",
+                        icons: [
+                            angular,
+                            redux
+                        ],
                     },
                     {
-                        name: "ReactJS",
-                        icon: reactjs,
+                        name: "NextJs e React",
+                        icons: [
+                            nextjs,
+                            reactjs
+                        ],
                     },
-                    // {
-                    //     name: "Redux Toolkit",
-                    //     icon: redux,
-                    // },
-                    // {
-                    //     name: "Three JS",
-                    //     icon: threejs,
-                    // },
-                    // {
-                    //     name: "Tailwind CSS",
-                    //     icon: tailwind,
-                    // },
-                    // {
-                    //     name: "git",
-                    //     icon: git,
-                    // },
-                    // {
-                    //     name: "docker",
-                    //     icon: docker,
-                    // },
-                    // {
-                    //     name: "figma",
-                    //     icon: figma,
-                    // },
+                    {
+                        name: "GoLang e Java",
+                        icons: [
+                            golang,
+                            java
+                        ],
+                    },
+                    {
+                        name: "Tailwind CSS e Three JS",
+                        icons: [
+                            tailwind,
+                            threejs
+                        ],
+                    },
+                    {
+                        name: "Git e Docker",
+                        icons: [
+                            git,
+                            docker
+                        ],
+                    },
                 ]
             }
         }
