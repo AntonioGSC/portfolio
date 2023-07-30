@@ -95,6 +95,36 @@ const Navbar = () => {
                                     <a href={`#${link.id}`}>{link.title}</a>
                                 </li>
                             ))}
+                            <li className='mt-1 flex w-full justify-around gap-2' onChange={handleLanguageChange} value={language}>
+                                <label htmlFor='pt-BR'>
+                                    <input
+                                        type='radio'
+                                        name='language'
+                                        id='pt-BR'
+                                        value='pt-BR'
+                                        checked={language === 'pt-BR'}
+                                        className='peer hidden'
+                                    />
+                                    <img
+                                        src={brazil}
+                                        className='w-8 h-8 cursor-pointer peer-checked:grayscale'
+                                        alt='Portuguese' />
+                                </label>
+                                <label htmlFor='en-US'>
+                                    <input
+                                        type='radio'
+                                        name='language'
+                                        id='en-US'
+                                        value='en-US'
+                                        checked={language === 'en-US'}
+                                        className='peer hidden'
+                                    />
+                                    <img
+                                        src={usa}
+                                        className='w-8 h-8 cursor-pointer peer-checked:grayscale'
+                                        alt='English' />
+                                </label>
+                            </li>
                         </ul>
                     </div>
                 </div>
