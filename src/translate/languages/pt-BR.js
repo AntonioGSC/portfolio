@@ -207,6 +207,9 @@ const messages = {
                         error: 'Desculpe! Alguma coisa deu errado.'
                     }
                 }
+            },
+            footer: {
+                backToTop: 'Voltar ao Topo',
             }
         }
     }

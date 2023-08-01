@@ -1,7 +1,7 @@
 import { BrowserRouter } from 'react-router-dom'
 
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from './components';
 import { Analytics } from '@vercel/analytics/react';
+import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas, Footer } from './components'
 
 const App = () => {
     return (
@@ -21,11 +21,12 @@ const App = () => {
                         <Contact />
                         <StarsCanvas />
                     </div>
+                    <Footer />
                 </div>
-            </BrowserRouter>
+            </BrowserRouter >
             <Analytics />
         </>
     )
 }
 
-export default App
+export default App;

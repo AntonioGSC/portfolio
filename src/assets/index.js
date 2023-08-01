@@ -30,6 +30,8 @@ import smarters from "./company/smarters.png";
 import brazil from "./brazil.png";
 import usa from "./usa.png";
 
+import arrow from "./arrow-up.svg";
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -64,6 +66,7 @@ export {
     smarters,
     brazil,
     usa,
+    arrow,
     carrent,
     jobit,
     tripguide,

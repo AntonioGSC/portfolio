@@ -255,6 +255,9 @@ const messages = {
                         error: 'Sorry! Something went wrong.'
                     }
                 }
+            },
+            footer: {
+                backToTop: 'Back to Top',
             }
         }
     }
