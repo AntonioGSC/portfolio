@@ -50,7 +50,7 @@ const messages = {
             hero: {
                 title: {
                     prefix: 'Hi, I\'m',
-                    name: 'Antonio'
+                    name: 'Antonio Carvalho'
                 },
                 subtitle: 'Software Developer, specializing in Front‐end. Studying an MBA in Software Engineering at FIAP.'
             },
