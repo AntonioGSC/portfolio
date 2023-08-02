@@ -32,9 +32,9 @@ import usa from "./usa.png";
 
 import arrow from "./arrow-up.svg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+// import carrent from "./carrent.png";
+// import jobit from "./jobit.png";
+// import tripguide from "./tripguide.png";
 
 export {
     logo,
@@ -67,7 +67,7 @@ export {
     brazil,
     usa,
     arrow,
-    carrent,
-    jobit,
-    tripguide,
+    // carrent,
+    // jobit,
+    // tripguide,
 };
