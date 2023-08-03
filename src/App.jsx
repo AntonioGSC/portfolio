@@ -1,7 +1,19 @@
+import React, { lazy } from 'react';
+
 import { BrowserRouter } from 'react-router-dom'
 
 import { Analytics } from '@vercel/analytics/react';
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas, Footer } from './components'
+
+const About = lazy(() => import('./components/About'));
+const Contact = lazy(() => import('./components/Contact'));
+const Experience = lazy(() => import('./components/Experience'));
+// const Feedbacks = lazy(() => import('./components/Feedbacks'));
+const Hero = lazy(() => import('./components/Hero'));
+const Navbar = lazy(() => import('./components/Navbar'));
+const Tech = lazy(() => import('./components/Tech'));
+// const Works = lazy(() => import('./components/Works'));
+const StarsCanvas = lazy(() => import('./components/canvas/Stars'));
+const Footer = lazy(() => import('./components/Footer'));
 
 const App = () => {
     return (
