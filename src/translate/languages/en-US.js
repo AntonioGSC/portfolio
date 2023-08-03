@@ -27,6 +27,13 @@ import {
 const messages = {
     en: {
         translations: {
+            personalData: {
+                github: 'https://github.com/AntonioGSC',
+                cv: 'https://drive.google.com/u/1/uc?id=14SvlwZuA8aO5jw27iPCR2Gw7pk2qwVmw&export=download',
+                instagram: 'https://www.instagram.com/antoniogsc',
+                linkedin: 'https://www.linkedin.com/in/antoniogscarvalho',
+                email: 'contact@antoniocarvalho.dev',
+            },
             navbar: {
                 logo: {
                     prefix: 'Antonio',

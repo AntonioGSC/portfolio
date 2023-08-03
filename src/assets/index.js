@@ -3,7 +3,6 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
-import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -30,11 +29,12 @@ import smarters from "./company/smarters.png";
 import brazil from "./brazil.png";
 import usa from "./usa.png";
 
-import arrow from "./arrow-up.svg";
+import github from "./github.png";
+import linkedin from "./linkedin.png";
+import email from "./email.png";
+import resume from "./resume.png";
 
-// import carrent from "./carrent.png";
-// import jobit from "./jobit.png";
-// import tripguide from "./tripguide.png";
+import arrow from "./arrow-up.svg";
 
 export {
     logo,
@@ -42,7 +42,6 @@ export {
     creator,
     mobile,
     web,
-    github,
     menu,
     close,
     css,
@@ -67,7 +66,8 @@ export {
     brazil,
     usa,
     arrow,
-    // carrent,
-    // jobit,
-    // tripguide,
+    linkedin,
+    github,
+    email,
+    resume
 };
