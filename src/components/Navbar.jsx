@@ -31,7 +31,7 @@ const Navbar = () => {
                     <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
                     <p className='text-white text-[18px] font-bold cursor-pointer flex'>
                         {i18n.t('navbar.logo.prefix')}&nbsp;
-                        <span className='sm:block hidden'>|&nbsp;{i18n.t('navbar.logo.suffix')}</span>
+                        {/* <span className='sm:block hidden'>|&nbsp;{i18n.t('navbar.logo.suffix')}</span> */}
                     </p>
                 </Link>
                 <ul className='list-none hidden sm:flex flex-row items-center gap-6'>
@@ -79,9 +79,11 @@ const Navbar = () => {
 
                 <div className='sm:hidden flex flex-1 justify-end items-center'>
                     <div
-                        className={`${styles.btnBurguer} ${toggle && styles.btnClose}`}
+                        className='w-12 h-12 flex items-center justify-center'
                         onClick={() => setToggle(!toggle)}
-                    ></div>
+                    >
+                        <div className={`${styles.btnBurguer} ${toggle && styles.btnClose}`}></div>
+                    </div>
 
                     <div className={`${!toggle ? 'hidden' : 'flex'} p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}>
                         <ul className='list-none flex justify-end items-start flex-col gap-4'>
@@ -98,11 +100,11 @@ const Navbar = () => {
                             ))}
                             <li className="w-full">
                                 <div className='mt-1 flex w-full justify-around gap-2' onChange={handleLanguageChange}>
-                                    <label htmlFor='pt-BR'>
+                                    <label htmlFor='pt-BR_mobile'>
                                         <input
                                             type='radio'
                                             name='language-mobile'
-                                            id='pt-BR'
+                                            id='pt-BR_mobile'
                                             value='pt-BR'
                                             checked={language === 'pt-BR'}
                                             className='peer/mobile hidden'
@@ -112,11 +114,11 @@ const Navbar = () => {
                                             className='w-8 h-8 cursor-pointer peer-checked/mobile:grayscale'
                                             alt='Portuguese' />
                                     </label>
-                                    <label htmlFor='en-US'>
+                                    <label htmlFor='en-US_mobile'>
                                         <input
                                             type='radio'
                                             name='language-mobile'
-                                            id='en-US'
+                                            id='en-US_mobile'
                                             value='en-US'
                                             checked={language === 'en-US'}
                                             className='peer/mobile hidden'

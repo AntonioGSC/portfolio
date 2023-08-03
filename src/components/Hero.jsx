@@ -27,7 +27,7 @@ const Hero = () => {
             </div>
 
             <div className='absolute xs:bottom-8 bottom-24 w-full flex justify-center items-center'>
-                <a href='#about'>
+                <a href='#about' aria-label="Read about me">
                     <p className='hidden'>About</p>
                     <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
                         <motion.dev

@@ -38,4 +38,4 @@ const Footer = () => {
     )
 }
 
-export default SectionWrapper(Footer, '');
+export default Footer;

@@ -36,8 +36,8 @@ const messages = {
             },
             navbar: {
                 logo: {
-                    prefix: 'Antonio',
-                    suffix: 'DEV'
+                    prefix: 'Antonio Carvalho',
+                    suffix: 'Software Developer'
                 },
                 navLinks: [
                     {
